@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+body{
+  max-width: 
+}
+
+/* Shared Styles */
+.btn-primary{
+  background: #FEA301;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 60px;
+}
+
+/* Header Section Styles */
+
+
+/* Navbar Section Styles */
+
+
+/* Banner Section Styles */
+
+
+/* Main Section Styles */
+
+
+/* Curriculum Section Styles */
+
+
+/* Stories Section Styles */
+
+
+/* Footer Section Styles */
