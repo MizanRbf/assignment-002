@@ -8,13 +8,20 @@
 }
 
 body{
-  max-width: 
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* Shared Styles */
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+}
 .btn-primary{
   background: #FEA301;
   color: #fff;
+  border: none;
   border-radius: 12px;
   padding: 10px 60px;
 }
@@ -23,8 +30,55 @@ body{
 
 
 /* Navbar Section Styles */
-
-
+.navbar{
+  margin: 20px auto;
+  max-height: 62px;
+}
+.nav-logo{
+  align-items: center;
+  gap: 11px;
+}
+.nav-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+.navbar img{
+  width: 62px;
+  height: 62px;
+}
+.navbar>ul{
+  gap: 32px;
+  align-items: center;
+}
+.navbar>ul>li{
+list-style: none;
+}
+.navbar>ul>li>a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500px;
+}
+ul li:nth-child(1) a{
+  color: #FEA301;
+}
+ul li:nth-child(2) a{
+  color: #01ACFD;
+}
+ul li:nth-child(3) a{
+  color: #05D4DF;
+}
+ul li:nth-child(4) a{
+  color: #5D58EF;
+}
+.nav-btn{
+  font-size: 20px;
+  font-weight: 600px;
+}
+.nav-btn:hover{
+  background:#fea1013b;
+  color: #000;
+  border: 1px solid #FEA301;
+}
 /* Banner Section Styles */
 
 
