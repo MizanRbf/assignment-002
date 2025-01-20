@@ -80,7 +80,30 @@ ul li:nth-child(4) a{
   border: 1px solid #FEA301;
 }
 /* Banner Section Styles */
-
+.banner{
+  gap: 50px;
+}
+.banner-content{
+margin-top: 122px;
+}
+.banner-title{
+font-size: 56px;
+font-weight: bold;
+}
+.banner-description{
+font-size: 20px;
+font-weight: 400px;
+}
+.banner-btn{
+background: black;
+color: white;
+}
+.banner-btn:hover{
+background: rgba(0, 0, 0, 0.158);
+color: black;
+border: 1px solid black;
+}
+.
 
 /* Main Section Styles */
 
@@ -101,5 +124,13 @@ ul li:nth-child(4) a{
   }
   .navbar .nav-title, ul>li, button {
     display: none;
+  }
+  .navbar{
+    padding: 20px;
+    margin: 0;
+  }
+  .navbar img{
+    width: 60px;
+    height: 60px;
   }
 }
