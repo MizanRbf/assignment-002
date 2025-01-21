@@ -112,7 +112,7 @@ border: 1px solid black;
 
 /* Curriculum Section Styles */
 .curriculum{
-  
+  background-image: url(assets/bg.png);
 }
 .curriculum-title{
   font-size: 46px;
@@ -187,12 +187,92 @@ font-weight: bold;
 }
 
 /* Stories Section Styles */
+.stories{
+  background-image: url(assets/bg.png), linear-gradient(to top, #fea1014d, #FFFFFF);
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.stories-title{
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+.stories-card{
+  border-radius: 16px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.stories-card1{
+grid-area: stories-card1;
+}
+.stories-card2{
+  grid-area: stories-card2;
+}
+.stories-card3{
+  grid-area: stories-card3;
+}
+.stories-card4{
+  grid-area: stories-card4;
+}
+.stories-card5{
+  grid-area: stories-card5;
+}
+.stories-card-container{
+  display: grid;
+  gap: 19.17px;
+  grid-template-areas: 
+  "stories-card1 stories-card2 stories-card3"
+  "stories-card1 stories-card4 stories-card5"
+  ;
+  }
+
+.stories-image{
+width: 100%;
+border-radius: 16px 16px 0 0; 
+max-height: 177px;
+}
+.stories-btn{
+border-radius: 47.93px;
+padding: 16px 20px;
+background: #3CD8E8;
+color: white;
+border: none;
+position: absolute;
+top: 50%;
+z-index: 1;
+}
+.stories-card> .stories-content{
+background: white;
+border: 1px solid blue;
+border-radius: 0 0 16px 16px;
+}
+.stories-card-title{
+
+}
+.stories-card-description{
+
+}
+.stories-view-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.stories-view-btn> button{
+  padding: 10px 61px;
+  background: black;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
 
 
 /* Footer Section Styles */
 
 
 /* Responsive for Mobile Phone */
+
+/* Navbar Section Responsive */
 @media screen and (max-width: 576px){
 .navbar .nav-title, ul>li, button {
   display: none;
@@ -244,5 +324,34 @@ font-weight: bold;
     }
     .arrow-container{
       display: none;
+    }
+
+    /* Stories Section Responsive */
+    .stories{
+
+    }
+    .stories-title{
+      
+    }
+    .stories-card-container{
+    
+    }
+    .stories-card1{
+    
+    }
+    .stories-image{
+    
+    }
+    .stories-btn{
+    
+    }
+    .stories-content{
+    
+    }
+    .stories-card-title{
+    
+    }
+    .stories-card-description{
+    
     }
 }
