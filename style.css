@@ -271,7 +271,7 @@ border-radius: 0 0 16px 16px;
 
 /* Footer Section Styles */
 .footer{
-  background-color: #01ACFD; 
+  background-color: #024564b4; 
   color: white;
   padding: 123px 129.5px 174px 129.5px;
   gap: 100px;
@@ -298,10 +298,13 @@ font-weight: bold;
 .footer-navbar>ul{
 display: flex;
 flex-direction: column;
-gap: 24px;
+gap: 35px;
+width: 167px;
+margin-top: 35px;
 }
 .footer-navbar ul li{
   list-style: none;
+
 }
 .footer-navbar ul li a{
   text-decoration: none;
@@ -316,6 +319,9 @@ gap: 24px;
 .ellipses{
   width: 399px;
 }
+.social{
+  min-width: 190px;
+}
 .social>h4{
   font-size: 26px;
   font-weight: bold;
@@ -325,7 +331,10 @@ gap: 24px;
 
 /* Navbar Section Responsive */
 @media screen and (max-width: 576px){
-.navbar .nav-title, ul>li, button {
+.navbar .nav-title, button {
+  display: none;
+}
+.navbar>ul{
   display: none;
 }
 .nav-container{
@@ -404,5 +413,26 @@ gap: 24px;
     }
     .stories-card-description{
     
+    }
+
+    /* Footer Section */
+    .footer{
+      flex-direction: column;
+      padding: 60px 16px;
+      gap:0px;
+    }
+    .footer-navbar>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 167px;
+    margin-top: 35px;
+    padding-left: 0;
+    }
+    .footer-navbar ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: 500px;
     }
 }
