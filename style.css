@@ -161,7 +161,6 @@ font-weight: bold;
 }
 .card1> .curriculum-abbre{
   color: rgba(100, 200, 255, 1);
-  background: linear-gradient(to 
 }
 .card2> .curriculum-abbre{
   color: rgba(240, 170, 0, 1);
@@ -205,4 +204,25 @@ font-weight: bold;
   .banner-image{
     margin: 0 auto;
   }
+
+  /* Curriculum Section Responsive */
+  .curriculum> .display-flex{
+    flex-direction: column;
+  }
+  .cards-container{
+    gap: 12.3px;
+    margin: 20px 16.5px;
+  }
+  .card-title{
+    font-size: 16.6px;
+    font-weight: bold;
+  }
+  .card-description{
+    font-size: 10.22px;
+    font-weight: 500px;
+  }
+  .curriculum-abbre{
+    font-size: 10.22px;
+    font-weight: bold;
+    }
 }
