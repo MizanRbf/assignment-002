@@ -203,27 +203,6 @@ font-weight: bold;
   font-size: 46px;
   font-weight: bold;
 }
-.stories-card{
-  border-radius: 16px;
-  border: 1px solid red;
-  position: relative;
-}
-
-.stories-card1{
-grid-area: stories-card1;
-}
-.stories-card2{
-  grid-area: stories-card2;
-}
-.stories-card3{
-  grid-area: stories-card3;
-}
-.stories-card4{
-  grid-area: stories-card4;
-}
-.stories-card5{
-  grid-area: stories-card5;
-}
 .stories-card-container{
   display: grid;
   gap: 19.17px;
@@ -232,11 +211,38 @@ grid-area: stories-card1;
   "stories-card1 stories-card4 stories-card5"
   ;
   }
+.stories-card{
+  border-radius: 16px;
+  position: relative;
+  background-color: white;
+}
+
+.stories-card1{
+grid-area: stories-card1;
+width:540.27px;
+}
+.stories-card2{
+  grid-area: stories-card2;
+  width: 290.69px;
+}
+.stories-card3{
+  grid-area: stories-card3;
+  width: 290.69px;
+}
+.stories-card4{
+  grid-area: stories-card4;
+  width: 290.69px;
+}
+.stories-card5{
+  grid-area: stories-card5;
+  width: 290.69px;
+}
+
 
 .stories-image{
 width: 100%;
 border-radius: 16px 16px 0 0; 
-max-height: 177px;
+height: 60%;
 }
 .stories-btn{
 border-radius: 47.93px;
@@ -248,16 +254,21 @@ position: absolute;
 top: 50%;
 z-index: 1;
 }
-.stories-card> .stories-content{
-background: white;
-border: 1px solid blue;
-border-radius: 0 0 16px 16px;
+/*  */
+.stories-card-description{
+font-size: 16px;
+font-weight: bold;
+margin: 40px;
+}
+.stories-card-description-1{
+  font-size: 16px;
+  font-weight: 500px;
+  margin: 40px;
 }
 .stories-card-title{
-
-}
-.stories-card-description{
-
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px;
 }
 .stories-view-btn{
   display: flex;
@@ -342,7 +353,7 @@ margin-top: 35px;
   display: none;
 }
 .nav-container{
-  border-bottom: 2px solid #FEA301; 
+  border-bottom: 1px solid #FEA301; 
 } 
 .navbar{
     padding: 20px;
