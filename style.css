@@ -380,7 +380,8 @@ margin-top: 35px;
   /* Banner Section Responsive */
   .banner{
     flex-direction: column-reverse;
-    margin: 17px;
+    /* margin: 17px; */
+    padding: 16px;
     gap: 20px;
   }
   .banner-content{
@@ -416,31 +417,37 @@ margin-top: 35px;
 
     /* Stories Section Responsive */
     .stories{
-
+      padding: 16px;
     }
     .stories-title{
       
     }
     .stories-card-container{
-    
+        display: grid;
+        gap: 10px;
+        
+    }
+    .stories-card{
+      width: 220px;
+      height: 240px;
+      border-radius: 10px;
+      margin: 0 auto;
     }
     .stories-card1{
-    
+    display: none;
     }
     .stories-image{
-    
+      border-radius: 10px 10px 0 0;
     }
     .stories-btn{
-    
-    }
-    .stories-content{
     
     }
     .stories-card-title{
     
     }
     .stories-card-description{
-    
+    font-size: 12px;
+    margin: 23px;
     }
 
     /* Footer Section */
