@@ -190,7 +190,6 @@ font-weight: bold;
 .stories{
   background-image: url(assets/bg.png), linear-gradient(to top, #fea1014d, #FFFFFF);
   margin-top: 60px;
-  margin-bottom: 80px;
 }
 .stories-title{
   text-align: center;
@@ -268,7 +267,11 @@ border-radius: 0 0 16px 16px;
 
 
 /* Footer Section Styles */
-
+.footer{
+  width: 1439px;
+  min-height: 519px;
+  background-color: #01ACFD; 
+}
 
 /* Responsive for Mobile Phone */
 
