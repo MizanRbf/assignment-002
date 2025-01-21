@@ -82,6 +82,10 @@ ul li:nth-child(4) a{
   color: #000;
   border: 1px solid #FEA301;
 }
+.bar-icon{
+  display: none;
+}
+
 /* Banner Section Styles */
 .banner{
   gap: 50px;
@@ -348,11 +352,24 @@ margin-top: 35px;
     width: 60px;
     height: 60px;
   }
+  .bar-icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .bar-icon> i{
+    font-size: 30px;
+  }
+
 
   /* Banner Section Responsive */
   .banner{
     flex-direction: column-reverse;
-    margin: 16px;
+    margin: 17px;
     gap: 20px;
   }
   .banner-content{
@@ -363,12 +380,12 @@ margin-top: 35px;
   }
 
   /* Curriculum Section Responsive */
+  .curriculum{
+    padding: 0;
+    margin: 0 17px;
+  }
   .curriculum> .display-flex{
     flex-direction: column;
-  }
-  .cards-container{
-    gap: 12.3px;
-    margin: 20px 16.5px;
   }
   .card-title{
     font-size: 16.6px;
@@ -379,7 +396,7 @@ margin-top: 35px;
     font-weight: 500px;
   }
   .curriculum-abbre{
-    font-size: 10.22px;
+    font-size: 15px;
     font-weight: bold;
     }
     .arrow-container{
@@ -418,7 +435,7 @@ margin-top: 35px;
     /* Footer Section */
     .footer{
       flex-direction: column;
-      padding: 60px 16px;
+      padding: 60px 17px;
       gap:0px;
     }
     .footer-navbar>ul{
