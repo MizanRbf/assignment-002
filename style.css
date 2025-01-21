@@ -131,6 +131,7 @@ border: 1px solid black;
   width: 367.8px;
   max-height: 481.5px;
   padding: 52px 40px 54px 40px;
+  border-radius: 18.86px;
 }
 .card> img{
   width: 137px;
@@ -145,12 +146,22 @@ border: 1px solid black;
   font-weight: 500px;
   color:rgba(128, 128, 128, 1);
 }
+.card1{
+  background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+}
+.card2{
+  background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+}
+.card3{
+  background: linear-gradient(to bottom, #EEE1FF, #FFFFFF);
+}
 .curriculum-abbre{
 font-size: 15.09px;
 font-weight: bold;
 }
 .card1> .curriculum-abbre{
   color: rgba(100, 200, 255, 1);
+  background: linear-gradient(to 
 }
 .card2> .curriculum-abbre{
   color: rgba(240, 170, 0, 1);
