@@ -242,4 +242,7 @@ font-weight: bold;
     font-size: 10.22px;
     font-weight: bold;
     }
+    .arrow-container{
+      display: none;
+    }
 }
