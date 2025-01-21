@@ -25,6 +25,9 @@ body{
   border-radius: 12px;
   padding: 10px 60px;
 }
+.dark-3{
+  color:rgba(128, 128, 128, 1);
+}
 
 /* Header Section Styles */
 
@@ -103,13 +106,58 @@ background: rgba(0, 0, 0, 0.158);
 color: black;
 border: 1px solid black;
 }
-.
 
 /* Main Section Styles */
 
 
 /* Curriculum Section Styles */
+.curriculum{
+  
+}
+.curriculum-title{
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+}
+.cards-container{
+  gap: 28.29px;
+  margin: 80px 140px;
 
+}
+.card{
+  text-align: center;
+  box-shadow: 0 0 28.3px  rgba(0, 0, 0, 0.05);
+  width: 367.8px;
+  max-height: 481.5px;
+  padding: 52px 40px 54px 40px;
+}
+.card> img{
+  width: 137px;
+  height: 137px;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-description{
+  font-size: 15px;
+  font-weight: 500px;
+  color:rgba(128, 128, 128, 1);
+}
+.curriculum-abbre{
+font-size: 15.09px;
+font-weight: bold;
+}
+.card1> .curriculum-abbre{
+  color: rgba(100, 200, 255, 1);
+}
+.card2> .curriculum-abbre{
+  color: rgba(240, 170, 0, 1);
+}
+.card3> .curriculum-abbre{
+  color: rgba(135, 0, 255, 1);
+}
 
 /* Stories Section Styles */
 
@@ -118,19 +166,32 @@ border: 1px solid black;
 
 
 /* Responsive for Mobile Phone */
-@media screen and (max-width: 576px) {
-  .nav-container{
-    border-bottom: 2px solid #FEA301; 
-  }
-  .navbar .nav-title, ul>li, button {
-    display: none;
-  }
-  .navbar{
+@media screen and (max-width: 576px){
+.navbar .nav-title, ul>li, button {
+  display: none;
+}
+.nav-container{
+  border-bottom: 2px solid #FEA301; 
+} 
+.navbar{
     padding: 20px;
     margin: 0;
   }
   .navbar img{
     width: 60px;
     height: 60px;
+  }
+
+  /* Banner Section Responsive */
+  .banner{
+    flex-direction: column-reverse;
+    margin: 16px;
+    gap: 20px;
+  }
+  .banner-content{
+    text-align: center;
+  }
+  .banner-image{
+    margin: 0 auto;
   }
 }
