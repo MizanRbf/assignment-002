@@ -14,6 +14,9 @@ body{
 }
 
 /* Shared Styles */
+button{
+  cursor: pointer;
+}
 .display-flex{
   display: flex;
 }
@@ -39,6 +42,7 @@ body{
   margin: 20px auto;
   max-height: 62px;
   justify-content: space-between;
+  gap: 20px;
 }
 .nav-logo{
   align-items: center;
@@ -81,9 +85,9 @@ ul li:nth-child(4) a{
   font-weight: 600px;
 }
 .nav-btn:hover{
-  background:#fea1013b;
+  background:#fea1016c;
   color: #000;
-  border: 1px solid #FEA301;
+  border: none;
 }
 .bar-icon{
   display: none;
@@ -193,6 +197,7 @@ font-weight: bold;
   color: #fff;
   font-size: 24px;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 
 /* Stories Section Styles */
@@ -223,32 +228,39 @@ font-weight: bold;
 .stories-card1{
 grid-area: stories-card1;
 width:540.27px;
+position: relative;
 }
 .stories-card2{
   grid-area: stories-card2;
   width: 290.69px;
+  position: relative;
 }
 .stories-card3{
   grid-area: stories-card3;
   width: 290.69px;
+  position: relative;
 }
 .stories-card4{
   grid-area: stories-card4;
   width: 290.69px;
+  position: relative;
 }
 .stories-card5{
   grid-area: stories-card5;
   width: 290.69px;
+  position: relative;
 }
 .stories-card6{
   grid-area: stories-card6;
   width: 290.69px;
   display: none;
+  position: relative;
 }
 .stories-card7{
   grid-area: stories-card7;
   width: 290.69px;
   display: none;
+  position: relative;
 }
 
 
@@ -260,12 +272,53 @@ height: 60%;
 .stories-btn{
 border-radius: 47.93px;
 padding: 16px 20px;
-background: #3CD8E8;
-color: white;
 border: none;
+width: 175px;
 position: absolute;
-top: 50%;
+top: 52.5%;
+left: 35px;
 z-index: 1;
+}
+.stories-btn1{
+  background: #3CD8E8;
+color: rgb(0, 0, 0);
+top: 56%;
+}
+.stories-btn1:hover{
+  background: #105157;
+color: rgb(255, 255, 255);
+}
+.stories-btn2{
+  background: #034050;
+  color: white;
+}
+.stories-btn2:hover{
+  background: #68b0c2;
+  color: rgb(0, 0, 0);
+}
+.stories-btn3{
+  background: #66686b;
+  color: white;
+}
+.stories-btn3:hover{
+  background: #b9b0b0;
+  color: rgb(0, 0, 0);
+}
+.stories-btn4{
+  background: #4e0480;
+  color: white;
+}
+.stories-btn4:hover{
+  background: #d1a6ee;
+  color: rgb(0, 0, 0);
+}
+.stories-btn5{
+  background: #a5700c;
+  color: white;
+}
+.stories-btn5:hover{
+  background: #dac8a8;
+  color: rgb(0, 0, 0);
 }
 /*  */
 .stories-card-description{
@@ -294,6 +347,11 @@ margin: 40px;
   color: white;
   border-radius: 12px;
   margin-bottom: 60px;
+}
+.stories-view-btn> button:hover{
+  background: #FEA301;
+  color: rgb(0, 0, 0);
+  border: none;
 }
 
 
@@ -368,7 +426,10 @@ margin-top: 35px;
   header{
     padding:0;
   }
-.navbar .nav-title, button {
+.navbar .nav-title{
+  display: none;
+}
+.navbar> button{
   display: none;
 }
 .navbar>ul{
@@ -491,4 +552,40 @@ margin-top: 35px;
       font-size: 20px;
       font-weight: 500px;
     }
+}
+
+/* Responsive for Medium Device */
+@media screen and (min-width: 576px) and (max-width: 1500px) {
+  .stories-card2,
+  .stories-card3,
+  .stories-card4,
+  .stories-card5 {
+    width: 300px;
+    min-height: 240px;
+    border-radius: 10px;
+  }
+  .stories-card1{
+    grid-area: stories-card1;
+    width:500px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 1000px) {
+  .stories-card1{
+    grid-area: stories-card1;
+    width:400px;
+    }
+    .stories-card2,
+  .stories-card3,
+  .stories-card4,
+  .stories-card5 {
+    width: 200px;
+    min-height: 240px;
+  }
+  .stories-card-description-1{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .stories-card-description {
+   font-size: 10px;
+  }
 }
