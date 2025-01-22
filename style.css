@@ -217,6 +217,7 @@ font-weight: bold;
   grid-template-areas: 
   "stories-card1 stories-card2 stories-card3"
   "stories-card1 stories-card4 stories-card5"
+  "stories-card1 stories-card6 stories-card7"
   ;
   }
 .stories-card{
@@ -353,7 +354,6 @@ margin: 40px;
   color: rgb(0, 0, 0);
   border: none;
 }
-
 
 /* Footer Section Styles */
 #marquee{
@@ -563,6 +563,10 @@ margin-top: 35px;
     font-size: 12px;
     margin: 23px;
     }
+    .stories-card6,
+    .stories-card7 {
+      display: block;
+    }
 
     /* Footer Section */
     .footer{
@@ -584,6 +588,7 @@ margin-top: 35px;
       font-size: 20px;
       font-weight: 500px;
     }
+     
 }
 
 /* Responsive for Medium Device */
@@ -600,7 +605,7 @@ margin-top: 35px;
     grid-area: stories-card1;
     width:500px;
     }
-}
+  }
 @media screen and (min-width: 576px) and (max-width: 1000px) {
   .stories-card1{
     grid-area: stories-card1;
