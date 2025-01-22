@@ -467,10 +467,17 @@ margin-top: 35px;
   .banner{
     flex-direction: column-reverse;
     padding: 20px;
-    gap: 20px;
+    gap: 10px;
+  }
+  .banner-title{
+    font-size: 32px;
+  }
+  .banner-description{
+    font-size: 14px;
   }
   .banner-content{
     text-align: center;
+    margin: 0;
   }
   .banner-image> img{
     width: 100%;
