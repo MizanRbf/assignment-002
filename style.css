@@ -173,10 +173,10 @@ font-size: 15.09px;
 font-weight: bold;
 }
 .card1> .curriculum-abbre{
-  color: rgba(100, 200, 255, 1);
+  color: rgb(10, 134, 201);
 }
 .card2> .curriculum-abbre{
-  color: rgba(240, 170, 0, 1);
+  color: rgb(224, 158, 4);
 }
 .card3> .curriculum-abbre{
   color: rgba(135, 0, 255, 1);
@@ -487,11 +487,11 @@ margin-top: 35px;
     font-weight: bold;
   }
   .card-description{
-    font-size: 10.22px;
+    font-size: 13px;
     font-weight: 500px;
   }
   .curriculum-abbre{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     }
     .arrow-container{
@@ -508,7 +508,6 @@ margin-top: 35px;
     .stories-card-container{
         display: grid;
         gap: 10px;
-        
     }
     .stories-card{
       width: 220px;
@@ -522,7 +521,10 @@ margin-top: 35px;
       border-radius: 10px 10px 0 0;
     }
     .stories-btn{
-    
+     width: 130px;
+     font-size: 12px;
+     padding: 10px;
+     left: 15px;
     }
     .stories-card-title{
     
