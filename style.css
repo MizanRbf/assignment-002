@@ -493,14 +493,14 @@ margin-top: 35px;
     flex-direction: column;
   }
   .cards-container{
-   width: 70vw;
+   max-width: ;
   }
   .card> img{
     width: 80px;
   }
   .cards-container>.card{
-    width: 100%;
-    /* padding: 36px 80px; */
+    width: 300px;
+    height: 280px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
