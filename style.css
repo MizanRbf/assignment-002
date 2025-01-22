@@ -497,7 +497,8 @@ margin-top: 35px;
   }
   .card{
     width: 100%;
-    max-height: 481.5px;
+    /* max-height: 481.5px; */
+    max-height: 325px;
     padding: 54px 0;
   }
   .card-title{
