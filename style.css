@@ -140,7 +140,7 @@ border: 1px solid black;
 }
 .card{
   text-align: center;
-  box-shadow: 0 0 28.3px  rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 19.16px  rgba(0, 0, 0, 0.05);
   width: 367.8px;
   max-height: 481.5px;
   padding: 52px 40px 54px 40px;
@@ -202,7 +202,7 @@ font-weight: bold;
 
 /* Stories Section Styles */
 .stories{
-  background-image: url(assets/bg.png), linear-gradient(to top, #fea1014d, #FFFFFF);
+  background-image: url(assets/bg.png), linear-gradient(to top, #fea10136, #FFFFFF);
   margin-top: 60px;
   padding: 0 129.5px;
 }
