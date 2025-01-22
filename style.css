@@ -168,17 +168,17 @@ border: 1px solid black;
 .card3{
   background: linear-gradient(to bottom, #EEE1FF, #FFFFFF);
 }
-.curriculum-abbre{
+.child-card .curriculum-abbre{
 font-size: 15.09px;
 font-weight: bold;
 }
-.card1> .curriculum-abbre{
+.card1> .child-card .curriculum-abbre{
   color: rgb(10, 134, 201);
 }
-.card2> .curriculum-abbre{
+.card2> .child-card .curriculum-abbre{
   color: rgb(224, 158, 4);
 }
-.card3> .curriculum-abbre{
+.card3> .child-card  .curriculum-abbre{
   color: rgba(135, 0, 255, 1);
 }
 .arrow-container{
@@ -493,14 +493,14 @@ margin-top: 35px;
     flex-direction: column;
   }
   .cards-container{
-   
+   width: 70vw;
   }
   .card> img{
     width: 80px;
   }
   .cards-container>.card{
-    max-width: 270px;
-    padding: 36px 80px;
+    width: 100%;
+    /* padding: 36px 80px; */
     margin: 0 auto;
     display: flex;
     justify-content: center;
