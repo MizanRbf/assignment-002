@@ -321,6 +321,7 @@ color: rgb(255, 255, 255);
   background: #dac8a8;
   color: rgb(0, 0, 0);
 }
+
 /*  */
 .stories-card-description{
 font-size: 16px;
@@ -566,6 +567,24 @@ margin-top: 35px;
     .stories-card6,
     .stories-card7 {
       display: block;
+    }
+    .stories-btn6{
+      background: #396804;
+      color: white; 
+    }
+    .stories-btn6:hover{
+      background: #c3e49d;
+      color: rgb(0, 0, 0);
+      
+    }
+    .stories-btn7{
+      background: #008c96;
+      color: white;
+      border-radius: 47.93px;
+    }
+    .stories-btn7:hover{
+      background: #81cacf;
+      color: rgb(0, 0, 0);
     }
 
     /* Footer Section */
