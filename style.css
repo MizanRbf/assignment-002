@@ -423,23 +423,26 @@ margin-top: 35px;
 
 /* Navbar Section Responsive */
 @media screen and (max-width: 576px){
-  header{
-    padding:0;
+  body{
+    margin: 0 auto;
+    padding: 0;
   }
-.navbar .nav-title{
+  header{
+    padding: 0;
+  }
+  .navbar{
+    padding: 10px;
+  }
+  .navbar .nav-title, 
+  .navbar> button, 
+  .navbar>ul {
   display: none;
-}
-.navbar> button{
-  display: none;
-}
-.navbar>ul{
-  display: none;
-}
-.nav-container{
+  }
+  .nav-container{
   border-bottom: 1px solid #FEA301; 
-} 
-.navbar{
-    padding: 20px;
+  } 
+  .navbar{
+    padding: 10px 20px ;
     margin: 0;
   }
   .navbar img{
@@ -463,24 +466,28 @@ margin-top: 35px;
   /* Banner Section Responsive */
   .banner{
     flex-direction: column-reverse;
-    /* margin: 17px; */
-    padding: 16px;
+    padding: 20px;
     gap: 20px;
   }
   .banner-content{
     text-align: center;
   }
   .banner-image{
+    width: 100%;
     margin: 0 auto;
   }
 
   /* Curriculum Section Responsive */
   .curriculum{
-    padding: 0;
-    margin: 0 17px;
+    padding: 20px;
   }
   .curriculum> .display-flex{
     flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-height: 481.5px;
+    padding: 54px 0;
   }
   .card-title{
     font-size: 16.6px;
@@ -500,7 +507,7 @@ margin-top: 35px;
 
     /* Stories Section Responsive */
     .stories{
-      padding: 16px;
+      padding: 20px;
     }
     .stories-title{
       
@@ -537,7 +544,7 @@ margin-top: 35px;
     /* Footer Section */
     .footer{
       flex-direction: column;
-      padding: 60px 17px;
+      padding: 60px 20px;
       gap:0px;
     }
     .footer-navbar>ul{
