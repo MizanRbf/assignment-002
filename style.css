@@ -140,7 +140,7 @@ border: 1px solid black;
 }
 .card{
   text-align: center;
-  box-shadow: 0 0 19.16px  rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px  rgba(0, 0, 0, 0.05);
   width: 367.8px;
   max-height: 481.5px;
   padding: 52px 40px 54px 40px;
