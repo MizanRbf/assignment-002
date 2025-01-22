@@ -408,9 +408,6 @@ margin-top: 35px;
   font-size: 26px;
   font-weight: bold;
 }
-.ellipses{
-  width: 399px;
-}
 .social{
   min-width: 190px;
 }
@@ -495,14 +492,22 @@ margin-top: 35px;
   .curriculum> .display-flex{
     flex-direction: column;
   }
+  .cards-container{
+   
+  }
   .card> img{
     width: 80px;
   }
-  .card{
-    width: 100%;
-    /* max-height: 481.5px; */
-    max-height: 325px;
-    padding: 54px 0;
+  .cards-container>.card{
+    max-width: 270px;
+    padding: 36px 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .child-card{
+    width: 193px;
+    text-align: center;
   }
   .card-title{
     font-size: 16.6px;
