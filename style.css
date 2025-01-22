@@ -229,6 +229,7 @@ font-weight: bold;
 .stories-card1{
 grid-area: stories-card1;
 width:540.27px;
+height: 628px;
 position: relative;
 }
 .stories-card2{
